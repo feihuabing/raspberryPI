@@ -1,5 +1,5 @@
 var Gpio = require("rpio2");
-var led = new Gpio(36);  //创建 P36 引脚
+var led = new Gpio(40);  //创建 P36 引脚
 
 led.open(Gpio.OUTPUT, Gpio.LOW); //设置为 OUTPUT、默认低电平
 
